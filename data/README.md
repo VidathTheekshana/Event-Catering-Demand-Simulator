@@ -1,7 +1,9 @@
 # Data
 
-| File | Description | Source (with link) | Licence | Date accessed |
-|---|---|---|---|---|
-| [file.csv] | [what it contains] | [where it came from] | [e.g. CC BY 4.0] | [YYYY-MM-DD] |
+No external datasets are used. All parameters (attendance rates, portion probabilities, arrival and service rates, preparation costs and shortage penalties) are documented assumptions listed in [THEORY.md](../THEORY.md) and varied in the sensitivity study.
 
-Keep files small (a few MB at most). If you collected the data yourself (e.g. arrival counts), describe how, and record counts as aggregates only: no personal data.
+| File | Description | Source | Licence | Date accessed |
+|---|---|---|---|---|
+| – | none | – | – | – |
+
+If real aggregate catering records (booked guests, actual attendance, prepared and leftover portions) become available, add them here as anonymised aggregates only, with their source and licence.

@@ -1,4 +1,5 @@
 numpy
 scipy
 matplotlib
-# add any other packages your notebook uses, e.g. pandas, simpy, mesa
+pandas
+jupyter
