@@ -4,7 +4,9 @@ A Monte Carlo and discrete-event simulation that finds how many portions an even
 
 **[Live demo](https://VidathTheekshana.github.io/event-catering-demand-simulator/)** · [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/VidathTheekshana/event-catering-demand-simulator/blob/main/notebook/event_catering_simulator.ipynb)
 
-> Web-demo screenshot: add a browser capture at `figures/demo-screenshot.png` before publishing. This file is not included because browser capture was unavailable during the audit.
+The live web demo is shown below, with the live event model, adjustable parameters and Monte Carlo validation panel.
+
+![Web-demo screenshot showing the live event model and model parameters](figures/demo-screenshot.png)
 
 ## The problem
 
