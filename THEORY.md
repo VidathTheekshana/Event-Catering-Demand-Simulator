@@ -83,7 +83,9 @@ $$\hat C=\frac1n\sum_{j=1}^n C_j,\qquad \text{95\% CI}=\hat C\pm1.96\frac{s}{\sq
 | Monte Carlo error slope | −0.5 | −0.475 | yes |
 | Web demo vs notebook reference (5 seeds) | within 3 combined SE | all metrics agree | yes |
 
-![Verification plot](figures/verification.png)
+The M/M/1 and M/M/4 results are verified by the notebook assertions and the verification table above. The figure below specifically shows Monte Carlo error scaling: the observed fitted log-log slope is −0.475, close to the theoretical slope of −0.5.
+
+![Monte Carlo convergence verification showing the expected error scaling](figures/mc_convergence.png)
 
 ## 6. Concepts applied
 

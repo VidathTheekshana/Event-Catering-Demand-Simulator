@@ -52,9 +52,9 @@ Every check is an `assert` in the notebook. Highlights (Colab run, seed 42):
 | Grid optimum vs newsvendor quantile | 280 | 280 |
 | Monte Carlo error slope (log-log) | −0.5 | −0.475 |
 
-The verification figure below compares the simulated queue-wait estimates with closed-form M/M/c results and shows the expected $n^{-1/2}$ Monte Carlo error scaling.
+The verification table above reports the analytic queueing checks. The figure below provides an additional verification by showing that the Monte Carlo estimation error decreases approximately as \(n^{-1/2}\). The fitted log-log slope is −0.475, close to the theoretical value of −0.5.
 
-![Verification plot: queue checks and Monte Carlo error scaling](figures/verification.png)
+![Monte Carlo convergence verification showing the expected error scaling](figures/mc_convergence.png)
 
 ## Concepts applied
 
