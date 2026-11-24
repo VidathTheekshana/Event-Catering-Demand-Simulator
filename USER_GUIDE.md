@@ -2,7 +2,9 @@
 
 **Open the demo:** [https://VidathTheekshana.github.io/event-catering-demand-simulator/](https://VidathTheekshana.github.io/event-catering-demand-simulator/). It runs entirely in your browser (current Chrome, Edge or Firefox). Nothing is installed or uploaded.
 
-> Labelled screenshot: add a browser capture at `figures/demo-screenshot-labelled.png` before publishing. This file is not included because browser capture was unavailable during the audit.
+## Demo overview
+
+![Web demo showing the live event model, adjustable parameters and Monte Carlo validation](figures/demo-screenshot.png)
 
 ## Controls
 
