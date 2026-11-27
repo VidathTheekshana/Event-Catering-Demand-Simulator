@@ -21,7 +21,7 @@ $$A\sim\text{Binomial}(N,p),\qquad D=\sum_{i=1}^{A}X_i .$$
 
 Given $A$, the numbers of guests choosing each portion size follow $\text{Multinomial}(A,\boldsymbol\pi)$ and $D=\sum_k v_k n_k$, which is sampled in one vectorised draw. By the law of total variance
 
-$$E[D]=Np\,\mu_X,\qquad \operatorname{Var}(D)=Np\,\sigma_X^2+Np(1-p)\,\mu_X^2 .$$
+$$E[D]=Np\,\mu_X,\qquad \mathrm{Var}(D)=Np\,\sigma_X^2+Np(1-p)\,\mu_X^2 .$$
 
 **Cost and decision.**
 
@@ -71,7 +71,7 @@ $$\hat C=\frac1n\sum_{j=1}^n C_j,\qquad \text{95\% CI}=\hat C\pm1.96\frac{s}{\sq
 | Check | Expected | Obtained | Pass? |
 |---|---|---|---|
 | Mean attendance $E[A]=Np$ | 180.000 | 180.000 | yes |
-| $E[D]$ and $\operatorname{Var}(D)$ | 270.000 and 139.5 | 270.022 and 139.6 | yes |
+| $E[D]$ and $\mathrm{Var}(D)$ | 270.000 and 139.5 | 270.022 and 139.6 | yes |
 | Deterministic limit ($N=50$, $p=1$, 2 portions each) | requested 100; $Q=90$ gives unmet 10 | 100; 10 | yes |
 | Conservation, 10,000 DES runs | exact | exact | yes |
 | DES vs fast layer, mean leftover at $Q=285$ | agree within 3 SE | 15.58 vs 15.59 | yes |
